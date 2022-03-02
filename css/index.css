@@ -1,0 +1,12 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
+}
+/* frは1：1：1の比率ということ */
+.item{
+    color:black;
+    border: solid 1px blue;
+    padding:10px;
+    gap:10px;
+}
